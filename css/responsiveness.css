@@ -1,0 +1,47 @@
+@media (max-width:997px) {
+    .left-header h1{
+        color: aqua;
+        font-size:30px;
+        padding: 15px 0 0 50px;
+    }
+
+    .middle-header ul li a {
+        font-size: 0.8rem;
+    }
+
+    .middle-header ul li {
+        list-style: none;
+        padding: 25px 0 25px 20px;
+        position: relative;
+        border: none;
+        overflow: hidden;
+    }
+
+    .right-header .hire-me-btn {
+        margin: 10px 50px;
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (max-width:790px) {
+    .middle-header ul li {
+        list-style: none;
+        padding: 25px 0 25px 10px;
+        position: relative;
+        border: none;
+        overflow: hidden;
+    }
+
+    .left-header h1
+
+    .right-header .hire-me-btn {
+        margin: 20px 10px 0 0;
+        padding: 0.2em 1em;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width:570px) {
+    
+}
