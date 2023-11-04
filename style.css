@@ -2,11 +2,7 @@
     margin: 0;
     padding: 0;
     background: #000;
-    font-family: 'Inter', sans-serif;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Reem Kufi', sans-serif;
 }
 
 header {
@@ -18,7 +14,7 @@ header {
 .left-header h1{
     color: aqua;
     font-size:40px;
-    padding: 8px 0 0 170px;
+    padding: 8px 0 0 100px;
 }
 
 .middle-header ul{
@@ -27,5 +23,98 @@ header {
 
 .middle-header ul li {
     list-style: none;
-    padding: 20px;
+    padding: 25px 0 25px 30px;
+    position: relative;
+    border: none;
+    overflow: hidden;
+}
+
+.middle-header ul li a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 0px;
+    cursor: pointer;
+    position: relative;
+    border: none;
+}
+
+.middle-header ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: aqua;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.middle-header ul li a:hover::after {
+    width: 100px;
+}
+
+.right-header .hire-me-btn {
+    all: unset;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.4em 2em;
+    border: aqua solid 0.15em;
+    border-radius: 0.25em;
+    color: aqua;
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border 300ms, color 300ms;
+    user-select: none;
+    margin: 10px 70px;
+}
+
+.right-header .hire-me-btn p {
+    z-index: 1;
+    background-color: inherit;
+}
+
+.right-header .hire-me-btn:hover {
+    color: aqua;
+}
+
+.right-header .hire-me-btn:active {
+    border-color: teal;
+}
+
+.right-header .hire-me-btn::after , .right-header .hire-me-btn::before {
+    content: "";
+    position: absolute;
+    width: 9em;
+    aspect-ratio: 1;
+    background: aqua;
+    opacity: 50%;
+    border-radius: 50%;
+    transition: transform 500ms, background 300ms;
+}
+
+.right-header .hire-me-btn::before {
+    left: 0;
+    transform: translateX(-8em);
+}
+
+.right-header .hire-me-btn::after {
+    right: 0;
+    transform: translateX(8em);
+}
+
+.right-header .hire-me-btn:hover::before {
+    transform: translateX(-1em);
+}
+
+.right-header .hire-me-btn:hover::after {
+    transform: translateX(1em);
+}
+
+.right-header .hire-me-btn:hover::before,
+.right-header .hire-me-btn:hover::after {
+    background: teal;
 }
