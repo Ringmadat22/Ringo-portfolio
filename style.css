@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+header {
+    border-bottom: 1px solid aqua;
+    display: flex;
+    justify-content:space-between;
+}
+
+.left-header h1{
+    color: aqua;
+    font-size:40px;
+    padding: 8px 0 0 170px;
+}
+
+.middle-header ul{
+  display: flex;  
+}
+
+.middle-header ul li {
+    list-style: none;
+    padding: 20px;
+}
