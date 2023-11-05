@@ -319,6 +319,10 @@ main>.container>.container {
     transform: translateX(-1em);
 }
 
+.hire-btn:hover::after {
+    transform: translateX(1em);
+}
+
 .hire-btn:hover::after,
 .hire-btn::before::before {
     background: teal;
