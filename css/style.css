@@ -278,3 +278,7 @@ main>.container>.container {
 .hire-btn p {
     z-index: 1;
 }
+
+.hire-btn:hover {
+    color: #212121;
+}
