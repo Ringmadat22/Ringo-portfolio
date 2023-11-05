@@ -298,3 +298,8 @@ main>.container>.container {
     border-radius: 50%;
     transition: transform 500ms, background 300ms;
 }
+
+.hire-btn::before {
+    left: 0;
+    transform: translate(-8em);
+}
