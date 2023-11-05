@@ -174,7 +174,6 @@ main {
 .hero {
     border-top:1px solid black;
     height: 40vh;
-    font-weight: 700;
     border-bottom: 7px solid aqua;
 }
 
