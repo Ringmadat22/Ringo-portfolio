@@ -237,7 +237,7 @@ i {
   }
   
   .animation > div > div {
-    padding: 0.25rem 0.75rem;
+    padding: 0.35rem 1rem;
     height:2.81rem;
     margin-bottom: 2.81rem;
     display:inline-block;
@@ -251,7 +251,7 @@ i {
     background-color:#20a7d8;
   }
   .second div {
-    background-color:#CD921E;
+    background-color:purple;
   }
   .third div {
     background-color:#c10528;
