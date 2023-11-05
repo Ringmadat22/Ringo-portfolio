@@ -249,6 +249,13 @@ main>.container>.container {
     90% {margin-top: 0;}
     100% {margin-top: 0;}
   }
+
+.button-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
   
 
 .hire-btn {
