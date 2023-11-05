@@ -173,7 +173,7 @@ main {
 
 .hero {
     border-top:1px solid black;
-    height: 40vh;
+    height: 70vh;
     border-bottom: 7px solid aqua;
 }
 
@@ -255,6 +255,7 @@ main>.container>.container {
     display: flex;
     justify-content: center;
     padding: 5px;
+    border: 1px solid red;
 }
   
 
@@ -315,11 +316,11 @@ main>.container>.container {
 }
 
 .hire-btn:hover::before {
-    transform: translateX(-1em);
+    transform: translateX(7em);
 }
 
 .hire-btn:hover::after {
-    transform: translateX(1em);
+    transform: translateX(-7em);
 }
 
 .hire-btn:hover::after,
