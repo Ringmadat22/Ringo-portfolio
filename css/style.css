@@ -282,6 +282,8 @@ main>.container>.container {
 
 .hire-btn p {
     z-index: 1;
+    background: inherit;
+    padding-top: 5px;
 }
 
 .hire-btn:hover {
@@ -305,10 +307,11 @@ main>.container>.container {
 
 .hire-btn::before {
     left: 0;
-    transform: translateX(-8em);
+    transform: translateX(-7em);
 }
 
 .hire-btn::after {
     right: 0;
-    transform: translateX(8em);
+    transform: translateX(7em);
 }
+
