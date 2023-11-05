@@ -287,3 +287,14 @@ main>.container>.container {
 .hire-btn:active {
     border-color:teal ;
 }
+
+.hire-btn::after, .hire-btn::before {
+    content: '';
+    position: absolute;
+    width: 9em;
+    aspect-ratio: 1;
+    background: aqua;
+    opacity: 50%;
+    border-radius: 50%;
+    transition: transform 500ms, background 300ms;
+}
