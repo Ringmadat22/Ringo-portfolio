@@ -242,6 +242,27 @@ i {
     margin-bottom: 2.81rem;
     display:inline-block;
   }
+
+.animation .first div {
+    padding: 0.35rem 1rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+}
+
+.animation .second div {
+    padding: 0.35rem 1rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+}
+
+.animation .third div {
+    padding: 0.35rem 1rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+}
   
   .animation div:first-child {
     animation: text-animation 8s infinite;
