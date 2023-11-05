@@ -167,7 +167,7 @@ i {
 }
 
 main {
-    padding-top: 130px;
+    padding-top: 100px;
 }
 
 .hero {
@@ -252,5 +252,22 @@ main>.container>.container {
   
 
 .hire-btn {
-    
+    all: unset;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: mediumspringgreen solid 1px;
+    border-radius: 0.25em;
+    color: mediumspringgreen;
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border 300ms, color 300ms;
+    user-select: none;
+    padding: 7px 20px 0px;
+}
+
+.hire-btn p {
+    z-index: 1;
 }
