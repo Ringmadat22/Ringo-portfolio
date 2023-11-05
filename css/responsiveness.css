@@ -1,0 +1,106 @@
+@media (max-width:992px) {
+    .container p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:752px) {
+    main>.container>.container {
+        color: #e5e5e5;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:100px ;
+      }
+
+      .animation > div > div {
+        padding: 0.15rem 0.45rem;
+        height:1.81rem;
+        margin-bottom: 1.81rem;
+        display:inline-block;
+      }
+
+      @keyframes text-animation {
+        0% {margin-top: 0;}
+        10% {margin-top: 0;}
+        20% {margin-top: -5.62rem;}
+        30% {margin-top: -5.62rem;}
+        40% {margin-top: -9.24rem;}
+        60% {margin-top: -9.24rem;}
+        70% {margin-top: -4.62rem;}
+        80% {margin-top: -4.62rem;}
+        90% {margin-top: 0;}
+        100% {margin-top: 0;}
+      }
+
+      .container p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:449px) {
+    main>.container>.container {
+        color: #e5e5e5;
+        font-size: 1rem;
+        text-transform: uppercase;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:100px ;
+      }
+
+      .animation > div > div {
+        padding: 0.15rem 0.45rem;
+        height:1.81rem;
+        margin-bottom: 1.81rem;
+        display:inline-block;
+      }
+
+      @keyframes text-animation {
+        0% {margin-top: 0;}
+        10% {margin-top: 0;}
+        20% {margin-top: -5.62rem;}
+        30% {margin-top: -5.62rem;}
+        40% {margin-top: -9.24rem;}
+        60% {margin-top: -9.24rem;}
+        70% {margin-top: -4.62rem;}
+        80% {margin-top: -4.62rem;}
+        90% {margin-top: 0;}
+        100% {margin-top: 0;}
+      }
+}
+
+@media (max-width:396px) {
+    .container p {
+        font-size: 10px;
+    }
+
+    main>.container>.container {
+        color: #e5e5e5;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:100px ;
+      }
+
+      
+      @keyframes text-animation {
+        0% {margin-top: 0;}
+        10% {margin-top: 0;}
+        20% {margin-top: -5.62rem;}
+        30% {margin-top: -5.62rem;}
+        40% {margin-top: -9.24rem;}
+        60% {margin-top: -9.24rem;}
+        70% {margin-top: -4.62rem;}
+        80% {margin-top: -4.62rem;}
+        90% {margin-top: 0;}
+        100% {margin-top: 0;}
+      }
+}
