@@ -328,3 +328,17 @@ main>.container>.container {
 .hire-btn::before::before {
     background: teal;
 }
+
+.socials {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.socials ul {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
