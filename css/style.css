@@ -182,7 +182,7 @@ main>.container>.container {
     color: #e5e5e5;
     font-size: 2.26rem;
     text-transform: uppercase;
-    height: 20vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -255,7 +255,6 @@ main>.container>.container {
     display: flex;
     justify-content: center;
     padding: 5px;
-    border: 1px solid red;
     margin-top: 160px;
 }
   
@@ -340,4 +339,14 @@ main>.container>.container {
         justify-content: space-between;
 }
 
-.socials ul li 
+.socials ul li  {
+    list-style: none;
+}
+
+.socials ul li a {
+    padding: 20px;
+    border: 1px solid aqua;
+    border-radius: 7px;
+    margin: 7px;
+    color: aqua;
+}
