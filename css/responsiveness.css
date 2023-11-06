@@ -13,7 +13,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top:100px ;
+        margin-top:10px ;
       }
 
       .animation > div > div {
@@ -39,6 +39,12 @@
       .container p {
         font-size: 16px;
     }
+}
+
+@media (max-width:600px) {
+  .left-top-about {
+    margin-right: 10px;
+}
 }
 
 @media (max-width:449px) {
@@ -71,6 +77,10 @@
         80% {margin-top: -4.62rem;}
         90% {margin-top: 0;}
         100% {margin-top: 0;}
+      }
+
+      .top-about {
+        display: block;
       }
 }
 
