@@ -372,7 +372,6 @@ main>.container>.container {
 
 .about-container {
     width: 80%;
-    border: 1px solid red;
 }
 
 .about-container h1 {
@@ -380,6 +379,29 @@ main>.container>.container {
     text-align: center;
 }
 
-.about-container h1 span {
-    color: purple;
+.about-container .lines {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-container .line-1 {
+    height: 3px;
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.about-container .line-2 {
+    height: 3px;
+    background-color: aqua;
+    margin-bottom: 7px;
+    width: 70%;
+}
+
+.about-container .line-3 {
+    height: 3px;
+    background-color: aqua;
+    margin-bottom: 7px;
+    width: 40%;
 }
