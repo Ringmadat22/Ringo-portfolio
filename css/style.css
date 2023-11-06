@@ -374,3 +374,12 @@ main>.container>.container {
     width: 80%;
     border: 1px solid red;
 }
+
+.about-container h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.about-container h1 span {
+    color: purple;
+}
