@@ -340,19 +340,4 @@ main>.container>.container {
         justify-content: space-between;
 }
 
-.socials ul li {
-    list-style: none;
-    padding: 15px 20px;
-    border: 1px solid aqua;
-    margin: 10px 6px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: all ease 0.3s;
-}
-
-
-
-.socials ul li a {
-    color: aqua;
-    font-size: 22px;
-}
+.socials ul li 
