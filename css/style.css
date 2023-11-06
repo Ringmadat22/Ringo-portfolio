@@ -350,3 +350,7 @@ main>.container>.container {
     margin: 7px;
     color: aqua;
 }
+
+.socials ul li a:hover {
+    transform:rotate(360deg);
+}
