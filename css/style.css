@@ -334,11 +334,15 @@ main>.container>.container {
     justify-content: center;
     text-align: center;
     border: 1px solid red;
-    padding: 10px;
 }
 
 .socials ul {
     display: flex;
     justify-content: space-between;
     border: 1px solid red;
+}
+
+.socials ul li {
+    list-style: none;
+    padding: 30px;
 }
