@@ -337,9 +337,9 @@ main>.container>.container {
 }
 
 .socials ul {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid red;
 }
 
 .socials ul li {
