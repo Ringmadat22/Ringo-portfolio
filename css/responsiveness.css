@@ -115,6 +115,10 @@
     .left-bottom-about h4, .right-bottom-about h4 {
       font-size: 12px;
   }
+
+  #button h4 {
+    font-size: 16px;
+}
 }
 
 @media (max-width:396px) {
