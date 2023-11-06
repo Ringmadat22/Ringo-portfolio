@@ -376,34 +376,12 @@ main>.container>.container {
 
 .about-container h1 {
     font-size: 3em;
+    font-weight: 100;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.about-container .lines {
+.about-container h2 {
     text-align: center;
-    justify-content: center;
-    width: 24%;
-    margin-left: 500px;
-}
-
-.about-container .line-1 {
-    height: 3px;
-    background-color: aqua;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 7px;
-}
-
-.about-container .line-2 {
-    height: 3px;
-    background-color: aqua;
-    margin-bottom: 7px;
-    width: 70%;
-}
-
-.about-container .line-3 {
-    height: 3px;
-    background-color: aqua;
-    margin-bottom: 7px;
-    width: 40%;
+    font-size: 20px;
 }
