@@ -344,5 +344,9 @@ main>.container>.container {
 
 .socials ul li {
     list-style: none;
-    padding: 30px;
+    padding: 15px 20px;
+    border: 1px solid aqua;
+    margin: 10px 6px;
+    border-radius: 50%;
 }
+
