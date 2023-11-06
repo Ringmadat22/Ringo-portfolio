@@ -113,4 +113,8 @@
         90% {margin-top: 0;}
         100% {margin-top: 0;}
       }
+
+      .socials ul li a {
+        padding: 7px;
+      }
 }
