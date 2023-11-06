@@ -350,3 +350,7 @@ main>.container>.container {
     border-radius: 50%;
 }
 
+.socials ul li a {
+    color: aqua;
+    font-size: 22px;
+}
