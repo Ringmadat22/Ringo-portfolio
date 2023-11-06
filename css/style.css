@@ -348,6 +348,7 @@ main>.container>.container {
 .socials ul li:hover {
     border: 1px solid aqua;
     background: aqua;
+    height: 60px;
 }
 
 .socials ul li a {
