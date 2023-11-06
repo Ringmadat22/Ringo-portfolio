@@ -174,7 +174,7 @@ main {
 .hero {
     border-top:1px solid black;
     height: 70vh;
-    border-bottom: 7px solid aqua;
+    border-bottom: 2px solid aqua;
 }
 
 
@@ -380,8 +380,10 @@ main>.container>.container {
 }
 
 .about-container .lines {
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
+    justify-content: center;
+    width: 24%;
+    margin-left: 500px;
 }
 
 .about-container .line-1 {
