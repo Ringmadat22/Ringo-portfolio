@@ -375,7 +375,7 @@ main>.container>.container {
 }
 
 .about-container h1 {
-    font-size: 3em;
+    font-size: 3.6em;
     font-weight: 100;
     text-align: center;
     margin-bottom: 20px;
@@ -390,5 +390,29 @@ main>.container>.container {
     display: flex;
     justify-content: center;
     margin-top: 70px;
-    border: 1px solid red;
+    padding: 20px;
+}
+
+.left-top-about {
+    margin-right: 200px;
+}
+
+.left-top-about h3 {
+    font-size: 16px;
+    line-height: 40px;
+    color: aliceblue;
+}
+
+.left-top-about h3 span {
+    padding-right:10px ;
+}
+
+.right-top-about h3{
+    font-size: 16px;
+    line-height: 40px;
+    color: aliceblue;
+}
+
+.right-top-about span {
+    padding-right:10px ;
 }
