@@ -333,13 +333,11 @@ main>.container>.container {
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 1px solid red;
 }
 
 .socials ul {
         display: flex;
         justify-content: space-between;
-        border: 1px solid red;
 }
 
 .socials ul li {
