@@ -53,6 +53,19 @@
     width: 100%;
     padding: 0px;
 }
+
+.contact-container {
+  display: block;
+  text-align: center;
+}
+
+.contact-img-div img {
+  display: none;
+}
+
+.contact {
+  padding-bottom: 70px;
+}
 }
 
 @media (max-width:600px) {
@@ -119,6 +132,27 @@
   #button h4 {
     font-size: 16px;
 }
+
+.contact {
+  padding: 0;
+}
+
+.contact h1 {
+  padding: 20px 0 40px;
+}
+
+.contact-container {
+  padding: 5px;
+}
+
+.left-contact, .right-contact form {
+  padding: 0;
+}
+
+.contact-btn {
+  margin-bottom: 50px;
+}
+
 }
 
 @media (max-width:396px) {
