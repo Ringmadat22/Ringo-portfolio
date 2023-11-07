@@ -484,3 +484,47 @@ main>.container>.container {
     font-size: 3.6em;
     font-weight: 100;
 }
+
+.contact {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.left-contact {
+    line-height: 30px;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.contact-img-div img{
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+.right-contact {
+    border: 2px solid wheat;
+}
+
+.right-contact form {
+    padding: 10px 10px;
+}
+
+.right-contact input {
+    padding: 10px 15px;
+    border: 1px solid aqua;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.right-contact form textarea {
+    width: 300px;
+    height: 100px;
+}
