@@ -384,6 +384,7 @@ main>.container>.container {
 .about-container h2 {
     text-align: center;
     font-size: 20px;
+    padding: 30px 0;
 }
 
 .top-about {
@@ -477,4 +478,9 @@ main>.container>.container {
 #button h4 {
     background: inherit;
     color: black;
+}
+
+#p-h1 {
+    font-size: 3.6em;
+    font-weight: 100;
 }
