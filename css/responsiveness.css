@@ -153,6 +153,14 @@
   margin-bottom: 50px;
 }
 
+.contact h1 {
+  font-size: 2.6em;
+}
+
+.projects .p-h1 {
+  font-size: 2em;
+}
+
 }
 
 @media (max-width:396px) {
@@ -191,5 +199,13 @@
 
       .about-container h1 {
         font-size: 2.5em;
+      }
+
+      .copyright p {
+        letter-spacing: normal;
+      }
+
+      #footer-container h1 {
+        letter-spacing: normal;
       }
 }
