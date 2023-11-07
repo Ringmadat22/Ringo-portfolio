@@ -492,7 +492,7 @@ main>.container>.container {
 }
 
 .contact h1 {
-    padding: 100px 0 70px;
+    padding: 40px 0 100px;
     text-align: center;
     font-size: 3.6em;
     font-weight: 100;
@@ -539,9 +539,16 @@ main>.container>.container {
 .contact-btn {
     width: 300px;
     border: 1px solid aqua;
-    background-color: #000;
+    background-color: aqua;
     outline: none;
-    color: aqua;
+    color: black;
     padding: 10px;
     margin-top:20px ;
+    transition: all ease 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #000;
+    color: aqua;
+    border: 1px solid aqua;
 }
