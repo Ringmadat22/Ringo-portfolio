@@ -581,11 +581,18 @@ footer {
 
 .contact-form {
     border: 1px solid aqua;
+    margin-bottom: 20px;
+}
+
+.contact-form h1 {
+    padding-top: 10px;
+    font-size: 3em;
 }
 
 .contact-form .contact-details {
     display: flex;
     justify-content: space-between;
+    padding: 20px 300px;
 }
 .footer-container ul {
     background-color: black;
