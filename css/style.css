@@ -460,7 +460,7 @@ main>.container>.container {
 }
 
 .left-bottom-about .div-1 p,  .right-bottom-about .div-1 p {
-    width: 80%;
+    width: 20%;
     height: 9px;
     background-color: aqua;
     border-radius: 7px;
