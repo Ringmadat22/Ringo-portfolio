@@ -488,6 +488,14 @@ main>.container>.container {
     border-radius: 7px;
 }
 
+.right-bottom-about .div-4 p {
+    width: 50%;
+    height: 9px;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+
 
 .projects {
     margin-top: 100px;
