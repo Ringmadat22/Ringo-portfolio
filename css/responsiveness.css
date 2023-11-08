@@ -2,6 +2,20 @@
     .container p {
         font-size: 20px;
     }
+
+    .contact-form .contact-details {
+      padding: 20px 0px;
+      border: 1px solid red;
+      display: block;
+    }
+
+    .contact-form .contact-details .num {
+      border: 1px solid blue;
+    }
+
+    .contact-form .contact-details p {
+      width: 100%;
+    }    
 }
 
 @media (max-width:752px) {
@@ -208,4 +222,10 @@
       #footer-container h1 {
         letter-spacing: normal;
       }
+}
+
+@media (max-width:1190px) {
+  .contact-form .contact-details {
+    padding: 20px 200px;
+  }
 }
