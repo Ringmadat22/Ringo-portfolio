@@ -563,7 +563,7 @@ footer {
 #footer-container {
     background: black;
     padding: 40px 40px 0;
-    border-radius: 40px;
+    border-radius: 7px;
     border: 1px solid aqua;
 }
 
