@@ -459,12 +459,6 @@ main>.container>.container {
     color: aliceblue;
 }
 
-.left-bottom-about .div-1 p,  .right-bottom-about .div-1 p {
-    width: 20%;
-    height: 9px;
-    background-color: aqua;
-    border-radius: 7px;
-}
 
 .left-bottom-about .div-1 p {
     width: 92%;
