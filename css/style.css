@@ -495,6 +495,20 @@ main>.container>.container {
     border-radius: 7px;
 }
 
+.right-bottom-about .div-1 p {
+    width: 55%;
+    height: 9px;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
+.right-bottom-about .div-2 p {
+    width: 77%;
+    height: 9px;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
 
 
 .projects {
