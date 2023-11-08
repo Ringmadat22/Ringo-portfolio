@@ -580,6 +580,10 @@ footer {
 }
 
 .contact-form {
+    border: 1px solid aqua;
+}
+
+.contact-form .contact-details {
     
 }
 .footer-container ul {
