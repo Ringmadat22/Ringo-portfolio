@@ -434,6 +434,10 @@ main>.container>.container {
     padding: 10px;
 }
 
+.left-bottom-about h6, .right-bottom-about h6 {
+    color: aqua;
+}
+
 .left-bottom-about .div-1, .right-bottom-about .div-1{
     height: 9px;
     background-color: inherit;
@@ -509,7 +513,12 @@ main>.container>.container {
     border-radius: 7px;
 }
 
-
+.right-bottom-about .div-3 p {
+    width: 33%;
+    height: 9px;
+    background-color: aqua;
+    border-radius: 7px;
+}
 
 .projects {
     margin-top: 100px;
