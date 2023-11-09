@@ -4,13 +4,13 @@
     }
 
     .contact-form .contact-details {
-      padding: 20px 0px;
-      border: 1px solid red;
-      display: block;
+      padding: 20px ;
+      display: flex;
     }
+    
 
     .contact-form .contact-details .num {
-      border: 1px solid blue;
+      border: none;
     }
 
     .contact-form .contact-details p {
@@ -222,10 +222,15 @@
       #footer-container h1 {
         letter-spacing: normal;
       }
+
+      .contact-form .contact-details {
+        padding: 20px ;
+        display: block;
+      }
 }
 
 @media (max-width:1190px) {
   .contact-form .contact-details {
-    padding: 20px 200px;
+    padding: 20px ;
   }
 }
