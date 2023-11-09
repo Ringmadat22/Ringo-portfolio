@@ -15,7 +15,13 @@
 
     .contact-form .contact-details p {
       width: 100%;
-    }    
+    }   
+    
+    .experience-1 h3, .experience-2 h3 {
+      font-size: 1.8em;
+      color: aqua;
+      padding-bottom: 20px;
+  }
 }
 
 @media (max-width:752px) {
@@ -29,6 +35,12 @@
         justify-content: center;
         margin-top:10px ;
       }
+
+      .experience-1 h3, .experience-2 h3 {
+        font-size: 1.5em;
+        color: aqua;
+        padding-bottom: 20px;
+    }
 
       .animation > div > div {
         padding: 0.15rem 0.45rem;
@@ -95,6 +107,14 @@
     display: block;
     padding: 40px;
   }
+
+  .experience-details {
+    display: block;
+  }
+
+  .experience-1 {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width:449px) {
@@ -108,6 +128,12 @@
         justify-content: center;
         margin-top:10px ;
       }
+
+      .experience-1 h3, .experience-2 h3 {
+        font-size: 1.1em;
+        color: aqua;
+        padding-bottom: 20px;
+    }
 
       .animation > div > div {
         padding: 0.15rem 0.45rem;
