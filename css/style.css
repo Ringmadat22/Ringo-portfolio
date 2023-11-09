@@ -281,10 +281,12 @@ main>.container>.container {
     justify-content: center;
 }
 
-.hire-btn p {
+.hire-btn a {
+    text-decoration: none;
     z-index: 1;
     background: inherit;
-    padding-top: 5px;
+    padding: 5px;
+    color: aqua;
 }
 
 .hire-btn:hover {
