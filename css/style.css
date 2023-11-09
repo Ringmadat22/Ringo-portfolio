@@ -688,7 +688,8 @@ footer {
 }
 
 .experience-container {
-    border: 1px solid rebeccapurple;
+    border: 1px solid aqua;
+    border-radius: 15px;
     padding: 30px;
 }
 
@@ -698,18 +699,26 @@ footer {
 }
 
 .experience-details {
-    border: 1px solid red;
+    border: none;
     display: flex;
     justify-content: space-between;
 }
 
 .experience-1, .experience-2 {
-    border: #000 solid 1px;
+    border: none;
     padding: 20px;
     width: 100%;
+    margin-top: 30px;
 }
 
 .experience-1 h3, .experience-2 h3 {
     font-size: 2em;
     color: aqua;
+    padding-bottom: 20px;
+}
+
+.experience-1 h6, .experience-2 h6 {
+    font-size: 12px;
+    color: gray;
+    padding-bottom: 10px;
 }
