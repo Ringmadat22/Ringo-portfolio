@@ -687,3 +687,12 @@ footer {
     color: red;
 }
 
+.experience-container {
+    border: 1px solid rebeccapurple;
+    padding: 30px;
+}
+
+.experience-container h1 {
+    text-align: center;
+    padding: 10px 0 30px;
+}
