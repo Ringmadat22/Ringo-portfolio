@@ -696,3 +696,20 @@ footer {
     text-align: center;
     padding: 10px 0 30px;
 }
+
+.experience-details {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-1, .experience-2 {
+    border: #000 solid 1px;
+    padding: 20px;
+    width: 100%;
+}
+
+.experience-1 h3, .experience-2 h3 {
+    font-size: 2em;
+    color: aqua;
+}
