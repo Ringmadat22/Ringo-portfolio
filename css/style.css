@@ -242,7 +242,6 @@ main>.container>.container {
     height:50px;
     overflow:hidden;
     margin-left: 1rem;
-    border: 1px solid red;
   }
   
   .animation > div > div {
