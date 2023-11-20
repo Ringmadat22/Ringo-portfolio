@@ -223,7 +223,13 @@ main>.container>.container {
     border: 2px solid #fff;
     display: flex;
     margin-left: 130px;
+    overflow: hidden;
   }
+
+  .hero-main-container {
+    overflow: hidden;
+  }
+
 
   .blob {
     width: 360px;
