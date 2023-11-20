@@ -220,7 +220,6 @@ main>.container>.container {
   }
 
   .hero-main-container-2 {
-    border: 2px solid #fff;
     display: flex;
     margin-left: 130px;
     overflow: hidden;
