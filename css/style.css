@@ -192,13 +192,13 @@ main {
 
 .hero {
     border-top:1px solid black;
-    height: 85vh;
     border-bottom: 2px solid aqua;
     margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 
-main>.container>.container {
+main>.hero>#container {
     color: #e5e5e5;
     font-size: 2.26rem;
     text-transform: uppercase;
@@ -208,15 +208,17 @@ main>.container>.container {
     margin-top:100px ;
     margin-bottom: 100px;
     width: 100%;
+    border: 1px solid rgb(255, 174, 0);
+    padding-left: 0px;
+    margin-right: 0;
   }
-
 
   .hero-image img{
     width: 220px;
     height: 270px;
-    margin-left: 80px;
+    margin-left: 0px;
     background: linear-gradient(#FFF, #fff) padding-box, linear-gradient(45deg, #0fd850) border-box;
-    margin-top: 40px;
+    margin-top: 0px;
     border: 5px solid aqua;
     border-radius: 50%;
 
@@ -226,18 +228,14 @@ main>.container>.container {
     display: flex;
     margin-left: 130px;
     overflow: hidden;
+    border: 2px solid rgb(255, 0, 238);
   }
 
   .hero-main-container {
-    overflow: hidden;
-  }
-
-
-  .blob {
-    width: 360px;
-    height: 360px;
-    border-radius: 0% 0% 100% 99%/ 100% 87%  87% 100%;
-    background: #000;
+    border: 1px solid aqua;
+    width: 220px;
+    height: 270px;
+    margin-left: 100px;
   }
   
   .animation {
