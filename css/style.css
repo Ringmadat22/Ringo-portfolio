@@ -375,9 +375,9 @@ main>.hero>#container {
   }
 
 .button-section {
-    text-align: center;
+text-align: center;
     display: flex;
-    justify-content: center;
+justify-content: center;
     padding: 5px;
     margin-top: 60px;
 }
@@ -402,6 +402,11 @@ main>.hero>#container {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#hire-btn {
+    margin-right: 30px;
+    width: 220px;
 }
 
 .hire-btn a {
