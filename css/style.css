@@ -192,8 +192,9 @@ main {
 
 .hero {
     border-top:1px solid black;
-    height: 70vh;
+    height: 85vh;
     border-bottom: 2px solid aqua;
+    margin-bottom: 100px;
 }
 
 
@@ -211,12 +212,14 @@ main>.container>.container {
 
 
   .hero-image img{
-    width: 200px;
-    height: 250px;
+    width: 220px;
+    height: 270px;
     margin-left: 80px;
-    background: inherit;
-    overflow: hidden;
+    background: linear-gradient(#FFF, #fff) padding-box, linear-gradient(45deg, #0fd850) border-box;
     margin-top: 40px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+
   }
 
   .hero-main-container-2 {
@@ -303,7 +306,7 @@ main>.container>.container {
     display: flex;
     justify-content: center;
     padding: 5px;
-    margin-top: 160px;
+    margin-top: 60px;
 }
   
 
