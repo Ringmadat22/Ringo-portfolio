@@ -192,13 +192,8 @@ main {
 
 .hero {
     border-top:1px solid black;
-    border-bottom: 2px solid aqua;
     margin-bottom: 100px;
     padding-bottom: 100px;
-}
-
-#container {
-    border: 1px solid rebeccapurple;
 }
 
 main>.hero>#container {
@@ -297,9 +292,11 @@ main>.hero>#container {
 }
 
 .animated-text h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 600;
     color: #fff;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 
   .animated-text {
@@ -308,11 +305,9 @@ main>.hero>#container {
     margin-right: 20px;
     min-width: 280px;
     color: #fff;
-    border: 1px solid red;
   }
 
   .hero-main-container {
-    border: 1px solid aqua;
     width: 220px;
     height: 270px;
     margin-left: 100px;
