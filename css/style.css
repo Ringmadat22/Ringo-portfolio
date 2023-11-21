@@ -197,6 +197,9 @@ main {
     padding-bottom: 100px;
 }
 
+#container {
+    border: 1px solid rebeccapurple;
+}
 
 main>.hero>#container {
     color: #e5e5e5;
@@ -208,8 +211,7 @@ main>.hero>#container {
     margin-top:100px ;
     margin-bottom: 100px;
     width: 100%;
-    border: 1px solid rgb(255, 174, 0);
-    padding-left: 0px;
+    padding-left: 200px;
     margin-right: 0;
   }
 
@@ -224,11 +226,89 @@ main>.hero>#container {
 
   }
 
-  .hero-main-container-2 {
-    display: flex;
-    margin-left: 130px;
-    overflow: hidden;
-    border: 2px solid rgb(255, 0, 238);
+  #element {
+    cursor: none;
+    font-size: 2rem;
+  }
+
+  /*
+  
+  ANIMATED TEXT BEGINS HERE
+  
+  */
+
+  .animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Youtuber";
+    color: aqua;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    margin-left: 10px;
+    background-color: #000000;
+    border-left: none;
+    right: -7px;
+    animation: cursor 1s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #00000000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Ringo";
+    }
+    21%,40%{
+        content: "A Software Engineer";
+    }
+    41%,60%{
+        content: "A Content Creator ";
+    }
+    61%,80%{
+        content: "A Web Developer";
+    }
+    81%,100%{
+        content: "A Gamer";
+    }
+}
+
+@keyframes typing {
+    10%,15%,20%,30%,35%,40%,50%,55%,60%,70%,75%,80%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
+.animated-text h6 {
+    color: aqua;
+}
+
+.animated-text h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+  .animated-text {
+    margin-left: 50px;
+    width: 50%;
+    margin-right: 20px;
+    min-width: 280px;
+    color: #fff;
+    border: 1px solid red;
   }
 
   .hero-main-container {
