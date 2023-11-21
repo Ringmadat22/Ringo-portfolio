@@ -25,7 +25,6 @@
     display: flex;
     margin-left: 30px;
     overflow: hidden;
-    border: 2px solid rgb(255, 0, 238);
   }
 
   .hero-main-container {
@@ -112,13 +111,11 @@
   margin-left: 0px;
   background: linear-gradient(#FFF, #fff) padding-box, linear-gradient(45deg, #0fd850) border-box;
   margin-top: 0px;
-  border: 5px solid aqua;
   border-radius: 50%;
 
 }
 
 .hero-main-container {
-  border: 1px solid aqua;
   width: 180px;
   height: 200px;
   margin-left: 100px;
@@ -269,13 +266,11 @@ main>.hero>#container {
     margin-left: 0px;
     background: linear-gradient(#FFF, #fff) padding-box, linear-gradient(45deg, #0fd850) border-box;
     margin-top: 0px;
-    border: 5px solid aqua;
     border-radius: 50%;
 
   }
 
   .hero-main-container {
-    border: 1px solid aqua;
     width: 150px;
     height: 170px;
     margin-left: 20px;
@@ -315,13 +310,11 @@ main>.hero>#container {
   margin-left: 0px;
   background: linear-gradient(#FFF, #fff) padding-box, linear-gradient(45deg, #0fd850) border-box;
   margin-top: 0px;
-  border: 5px solid aqua;
   border-radius: 50%;
 
 }
 
 .hero-main-container {
-  border: 1px solid aqua;
   width: 120px;
   height: 140px;
   margin-left: 10px;
@@ -428,13 +421,11 @@ height: 110px;
 margin-left: 0px;
 background: linear-gradient(#FFF, #fff) padding-box, linear-gradient(45deg, #0fd850) border-box;
 margin-top: 0px;
-border: 5px solid aqua;
 border-radius: 50%;
 
 }
 
 .hero-main-container {
-border: 1px solid aqua;
 width: 90px;
 height: 110px;
 margin-left: 10px;
@@ -452,10 +443,15 @@ margin-left: 10px;
         font-size: 0.8rem;
         text-transform: uppercase;
         height: 15vh;
-        display: flex;
+        display: block;
         align-items: center;
         justify-content: center;
         margin-top:10px ;
+      }
+
+      #container {
+        display: flex;
+        flex-direction: column;
       }
 
       
@@ -498,31 +494,49 @@ margin-left: 10px;
       }
     
       .animated-text h1 {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         font-weight: 600;
     }
     
     .hero-image img{
-      width: 70px;
-      height: 100px;
+      width: 180px;
+      height: 210px;
       margin-left: 0px;
       background: linear-gradient(#FFF, #fff) padding-box, linear-gradient(45deg, #0fd850) border-box;
       margin-top: 0px;
       border: 5px solid aqua;
       border-radius: 50%;
-    
+  
     }
+
+    .socials {
+      margin-top: 200px;
+    }
+
+    #container {
+      padding-bottom: 100px;
+    }
+    main {
+      padding-top: 20px;
+  }
     
     .hero-main-container {
-      border: 1px solid aqua;
       width: 70px;
       height: 100px;
       margin-left: 10px;
+      display: none;
     }
+
+    #hero-main-container {
+      width: 220px;
+      height: 270px;
+      margin-left: 30px;
+      display: flex;
+      margin-bottom: 40px;
+    } 
 
     .animated-text {
       width: 10px;
-      border: 1px solid aquamarine;
     }
 }
 
