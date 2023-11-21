@@ -312,6 +312,10 @@ main>.hero>#container {
     height: 270px;
     margin-left: 100px;
   }
+
+  #hero-main-container {
+    display: none;
+  }
   
   .animation {
     height:50px;
