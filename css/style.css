@@ -791,8 +791,10 @@ footer {
     font-size: 3em;
 }
 
-#projects-h {
+#project-h3 {
  color: aqua;
+ font-size: 2rem;
+ text-decoration: underline;
 }
 
 .contact-form .contact-details {
