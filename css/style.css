@@ -661,6 +661,13 @@ justify-content: center;
     border-radius: 7px;
 }
 
+.right-bottom-about-container .div-4 p {
+    width: 75%;
+    height: 9px;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
 .projects {
     margin-top: 100px;
     padding: 20px;
