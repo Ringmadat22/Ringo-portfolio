@@ -626,6 +626,13 @@ justify-content: center;
     border-radius: 7px;
 }
 
+.left-bottom-about .div-4 p {
+    width: 50%;
+    height: 9px;
+    background-color: aqua;
+    border-radius: 7px;
+}
+
 .right-bottom-about .div-0 p {
     width: 77%;
     height: 9px;
