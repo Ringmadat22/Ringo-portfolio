@@ -867,11 +867,18 @@ footer {
 }
 
 .github button {
-    width: 300px;
     border: none;
     background-color: inherit;
 }
 
 .github button a {
-    font-size: 2.6rem;
+    font-size: 2rem;
+    width: 100%;
+    color: aqua;
+    transition: all ease 0.2s;
+}
+
+.github button a:hover {
+    text-decoration: underline;
+    color: aquamarine;
 }
