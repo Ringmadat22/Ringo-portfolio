@@ -791,6 +791,9 @@ footer {
     font-size: 3em;
 }
 
+#projects-h4 {
+ color: aqua;
+}
 .contact-form .contact-details {
     display: flex;
     justify-content: space-between;
