@@ -857,3 +857,19 @@ footer {
     color: gray;
     padding-bottom: 10px;
 }
+
+.github {
+    width: 100%;
+    border: 1px solid red;
+    padding: 30px 0;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.github button {
+    width: 300px;
+    border: none;
+    background-color: inherit;
+    
+}
