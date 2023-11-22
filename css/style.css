@@ -783,11 +783,13 @@ footer {
 .contact-form {
     border: 1px solid aqua;
     margin-bottom: 20px;
+    background-color: aqua;
 }
 
 .contact-form h1 {
     padding-top: 10px;
     font-size: 3em;
+    color: #ececec;
 }
 
 .contact-form .contact-details {
